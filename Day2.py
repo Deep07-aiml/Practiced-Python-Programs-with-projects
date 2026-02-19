@@ -1,5 +1,4 @@
-#Day2 
-
+#Day2 of 100 days of python
 
 # Primitive Datatype 
 # String 
@@ -11,7 +10,7 @@ print("Hello" + " world")
 #Integer 
 print(123 + 345)
 
-#For Large Number we use 'commas' inbetween to represent it we use '_' (underscore)
+#For Large Number we use 'commas' inbetween to represent it here in python we use '_' (underscore)
 # 123_456_789
 
 #Float
@@ -26,10 +25,10 @@ print(len('5678'))
 
 num_char = len(input("What is your name? "))
 #print("Your name has" + num_char + " characters.")  TypeError Can't concate 'int' 
-new_num_char = str(num_char) # Type COnversion
+new_num_char = str(num_char) # Type Conversion
 
-#Type Checking or Type Casting
-print(type(num_char)) #Use type() to check it's type --> <class 'int'>
+#Type Checking or Type Casting 
+print(type(num_char)) #Use type() to check it's Datatype --> <class 'int'>
 
 print("Your name has " + new_num_char + " characters.")
 

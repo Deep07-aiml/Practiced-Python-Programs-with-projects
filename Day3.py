@@ -1,16 +1,15 @@
 # Control flow with if_else
 # Comparison operator :- ==, > , >= , < , <= , !=
+
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
-
-
 if height >= 120:
     print("Can ride")
 else:
     print("Can't ride sorry!")
 
 # odd or Even exercise
-number = int(input("Which numer do you want to check: "))
+number = int(input("Which number do you want to check: "))
 
 if number % 2 == 0 :
     print("This is an even number.")
@@ -28,7 +27,7 @@ if height >= 120:
 else:
     print("Can't ride sorry!")
 
-# if / elif / else used to check multiple condition
+# if / elif / else are used to check multiple condition.
 
 if height >= 120:
     print("You can ride the rollercoaster")
@@ -105,7 +104,7 @@ if height >= 120:
 else:
     print("Can't ride sorry!")
 
-# Challenge Pizza Order
+# Challenge Pizza Order system
 
 print("Welcome to Dominos")
 size = input("What size pizza do you want? S, M or L: ")
